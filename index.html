@@ -9,30 +9,30 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-        <a class="title" href="./index.html"> DevStudio </a>
-        <ul>
-            <li>
-                <a class="title_link1" href="./index.html">Про нас</a>
-            </li>
-            <li>
-                <a class="title_link1" href="./index.html">Портфоліо</a>
-            </li>
-            <li>
-                <a class="title_link1" href="./index.html">Контакти</a>
-            </li>
-        </ul>
-        </nav>
-        <ul>
-            <li>
-                <a class="title_link2" href="mailto:info@devstudio.com"> <svg class="icon-top" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a> 
-            </li>
-            <li>
-                <a class="title_link2" href="tel:+380680001100"> <svg class="icon-top" width="10" height="16"> <use href="./images/sprite.svg#smartphone"></use></svg> +38 068 000 11 00</a>
-            </li>
-        </ul>
-    </header>
+  <header>
+    <nav>
+      <a class="title" href="./index.html"> DevStudio </a>
+      <ul>
+          <li>
+              <a class="title_link1" href="./index.html">Про нас</a>
+          </li>
+          <li>
+              <a class="title_link1" href="./index.html">Портфоліо</a>
+          </li>
+          <li>
+              <a class="title_link1" href="./index.html">Контакти</a>
+          </li>
+      </ul>
+    </nav>
+      <ul>
+          <li>
+              <a class="title_link2" href="mailto:info@devstudio.com"> <svg class="icon-top" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a> 
+          </li>
+          <li>
+              <a class="title_link2" href="tel:+380680001100"> <svg class="icon-top" width="10" height="16"> <use href="./images/sprite.svg#smartphone"></use></svg> +38 068 000 11 00</a>
+          </li>
+      </ul>
+  </header>
 
     <main>
         <section class="main_section">
@@ -43,42 +43,54 @@
         </section>
 
         <section>
-            <ul>
-                <li>
-                    <svg class="icon-top" width="70" height="70">
+            <ul class="flex_box">
+                <div class="icon">
+                  <li class="icons">
+                    <svg class="icon-top" width="70" height="70" viewBox="0 0 70 70" fill="none">
                       <use href="./images/sprite.svg#antenna"></use> 
                     </svg>
-                    
+                    </li>
+                  <li>
                     <h3 class="advantages">Увага до деталей</h3>
                     <p class="text_fish">Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</p>
                 </li>
+              </div>
 
-                <li>
+                <div class="icon">
+                  <li class="icons">
                     <svg class="icon-top" width="70" height="70">
                       <use href="./images/sprite.svg#clock"></use> 
                     </svg>
-
+                  </li>
+                  <li>
                     <h3 class="advantages">Пунктуальність</h3>
                     <p class="text_fish">Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</p>
                 </li>
+              </div>
 
-                <li>
+                <div class="icon">
+                  <li class="icons">
                     <svg class="icon-top" width="70" height="70">
                       <use href="./images/sprite.svg#diagram"></use> 
                     </svg>
-
+                  </li>
+                  <li>
                     <h3 class="advantages">Планування</h3>
                     <p class="text_fish">Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</p>
                 </li>
+              </div>
 
-                <li>
+                <div class="icon">
+                  <li class="icons">
                     <svg class="icon-top" width="70" height="70">
                       <use href="./images/sprite.svg#astronaut"></use> 
                     </svg>
-
+                  </li>
+                  <li>
                     <h3 class="advantages">Сучасні технології</h3>
                     <p class="text_fish">Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</p>
                 </li>
+              </div>
             </ul>
 
         </section>
@@ -87,7 +99,7 @@
             <h2 class="specialization">Роботи на яких спеціалізуємось</h2>
 
             <ul>
-
+              <div class="flex_box1">
                 <li>
                     <img width="370" height="294" src="./images/image1.jpg" alt="img_one">
                 </li>
@@ -97,7 +109,7 @@
                 <li>
                     <img width="370" height="294" src="./images/image3.jpg" alt="img_three">
                 </li>
-
+              </div>
             </ul>
 
         </section>
@@ -106,6 +118,7 @@
             <h2 class="our_team">Наша команда</h2>
 
             <ul>
+              <div class="flex_box2">
                 <li>
                     <img width="270" height="260" src="./images/image4.jpg" alt="Логотип компанії">
                     <h3 class="employees">Betty Foriz</h3>
@@ -245,6 +258,7 @@
                         </g>                            
                       </svg>
                   </a>
+                </li>
 
                 <li>
                     <img width="270" height="260" src="./images/image7.jpg" alt="Логотип компанії">
@@ -292,11 +306,14 @@
                       </svg>
                   </a>
                 </li>
+                </div>
             </ul>
 
         </section>
     </main>
     <footer>
+      <div class="flex_box3">
+      <div class="under_flexbox">
         <a class="logo_bottom" href="./index.html">DevStudio</a>
         <address class="address-text">
             м. Харків, вул. Ярослава Мудрого, 18
@@ -305,9 +322,10 @@
                 <li><a href="tel:+380680001100" class="lower_link">+380 6800 011 00</a></li>
             </ul>
         </address>
-        <div>            
+      </div>
+      <div class="under_flexbox1">           
         <h3 class="lower_part">приєднуйтесь</h3>
-        
+        <div class="under_flexbox2"> 
         <a href="#" class="SNS-link">                     
             <svg class="icon-top" width="44" height="44">
                 <g transform="scale(1)" >
@@ -347,16 +365,20 @@
               <use href="./images/sprite.svg#linkedin" class="sns-icon-footer"></use>
             </g>                            
         </svg>
-    </a>
-    </div>
+      </a>
+      </div>
+        </div>
+        <div class="under_flexbox3">
         <form action="#" method="get" class="email">
-            <label  class="form-text">Підпишись на розсилку</label>
+            <ul> <p class="form-text">Підпишись на розсилку</p></ul>
             <input type="email" placeholder="Email" class="email-form">
             <button class="subscribe"  type="submit">
                     Підписатись
                 <svg class="icon-bottom" width="24" height="24"><use href="./images/sprite.svg#subscribe"></use></svg>
               </button>
         </form>
+        </div>
+      </div>
     </footer>
 
 </body>
